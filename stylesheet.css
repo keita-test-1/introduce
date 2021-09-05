@@ -1,0 +1,394 @@
+* {
+    box-sizing: border-box;
+}
+
+@media (min-width:1001px) {
+    
+
+/* kyoutu- */
+
+body {
+    margin: 0; height: 100%; width: 100%; background-color: rgb(165, 165, 154,0.8);
+}
+
+.click {
+    display: none;
+}
+
+.container {
+    width: 100%; padding: 0 15px; margin: 0 auto;
+}
+
+.btn {
+    background-color: black; color: white;  display: inline-block;
+    height: 60px; width: 60px; border-radius: 50%; font-size: 30px;
+    text-align: center; padding-top: 8px;opacity: 0.5; text-decoration: none;
+}   
+.btn:hover{
+    opacity: 1.0; 
+}
+
+span {
+    color: red;
+}
+
+.sp {
+    display: flex;
+}
+
+.gray {
+    color: gray; margin: 0; text-align: center;
+}
+.bule {
+    color: blue;
+}
+
+.fade1 {
+    animation: fadeIn 1.5s ease 0s 1 normal;
+}
+@keyframes fadeIn { 
+    0% {opacity: 0} 100% {opacity: 1} 
+}
+.fade2 {
+    animation: fadeIn 1.5s ease 1.5s 1 both;
+}
+
+/* portfolio_top */
+
+header {
+    background-color: rgba(0, 174, 255,0.8); height: 65px; width: 100%; top: 0;
+    z-index: 10; padding-bottom: 15px;
+}
+.header-left{
+    width: 50%; float: left; margin: 0 10px;
+}
+.header-left h1{
+    margin: 10px; text-shadow: 3px 2px 0 white; letter-spacing: 3px;
+}
+.header-right{
+    width: 40%; position: absolute;  right: 5px; display: flex;
+}
+.header-right h2{
+    margin: 10px 10px 10px 50px; padding-top: 8px; width: 200px; 
+    border-left: 5px solid rgb(255, 208, 0); 
+}
+.header-right img{
+    width: 40px; height: 40px; margin: 13px; border-radius: 100%;
+}
+
+.top-wrapper {
+    padding: 35px 0; 
+    margin-bottom: 5px; 
+}
+.top-wrapper img{
+    height: 160px; width: 160px; border-radius: 100%;  margin-left: 310px;
+}
+.message {
+    margin-left: 90px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 5px;
+}
+.message p{
+    position: relative; background-color: white; padding: 10px; text-align: center; 
+    color: black; margin-bottom: 30px; border-radius: 10px;
+}
+.message p::before{
+    content: ""; position: absolute; border: 12px solid transparent;
+    border-right: 12px solid white; right: 100%; top: 20%;
+}
+
+.news {
+    display: none;
+}
+/* portfolio_top contents */
+
+.contents-wrapper {
+    height: 420px; width: auto; padding: 0 25px; 
+}
+.contents-wrapper h1{
+    text-align: center; display: inline-block; margin: 0 100px 0 250px; 
+    letter-spacing: 5px;
+}
+
+
+.contents {
+    padding: 75px 0; font-family: 'Century'; border: 2px solid rgb(165, 165, 154,0.8);
+}
+
+.introduce {
+    background-color: rgb(255, 233, 200);   
+}
+
+.achievements {
+    background-color: rgb(78, 240, 172,0.8);  
+}
+.next2 {
+    margin-left: 66px;
+}
+
+/* portfolio_contents kyoutu- */
+
+.contents-title {
+    width: 100%; height: 100px; padding: 10px;  
+    display: inline-block; margin-bottom: 50px;
+    letter-spacing: 5px;
+}
+.title-top {
+    padding: 40px 10px; display: flex; font-family: 'Century'; margin-bottom: 30px;
+}
+.title-top h1{
+    width: 50%; margin: 5px; 
+}
+.return {
+    margin-right: 485px;
+}
+
+.parts {
+    text-align: center;
+}
+
+/* portfolio_contents achievments */
+
+.imgs {
+    width: 100%; height: 1000px;  padding: 25px; 
+}
+
+.sdgs {
+    width: 100%; height: 50%; 
+}
+
+.achievement {
+    background-color: white; padding: 30px 25px; height: 500px;
+}
+.achievement img{
+    width: 450px; height: 300px; 
+}
+.achievement p{
+    letter-spacing: 2px; font-size: 17px;
+}
+.achievement h1{
+    border: 1px solid rgb(245, 111, 194);
+}
+
+.progate {
+    width: 100%; height: 650px;
+}
+.progate h1{
+    margin-top: 50px;
+}
+
+.gazo- {
+    margin-left: 470px;
+}
+
+.Bigimg1 {
+    z-index: 100; display: none;
+}
+.Bigimg1 img{
+    width: 1050px; height: 750px;
+}
+
+.Bigimg2 {
+    z-index: 100; display: none;
+}
+.Bigimg2 img{
+    width: 875px; height: 620px;
+}
+
+.kakudai {
+    background-color: rgba(0,0,0,0.4); width: 100%; text-align: center; position: fixed;
+    top: 0; left: 0; 
+}
+
+.bigparts {
+    position: absolute; right: 150px; top: 50px; font-size: 70px; background-color: azure;
+}
+
+/* portfolio_contents introduse */
+
+.bunsyou {
+    width: 100%; height: 2000px;  padding: 25px;
+}
+.bunsyou p{
+    margin: 16px 20px;
+}
+
+.mine {
+    background-color: white; height: 33%; padding: 21.44px 0 16px 0; pointer-events: none;
+}
+.mine a{
+    color: rgb(3, 235, 3); pointer-events: auto;
+}
+.mine a:hover{
+    color: pink;
+}
+
+.watashi-is {
+    height: 600px;
+}
+.favolite {
+    height: 950px;
+}
+.favolite p{
+    font-size: 18px;
+}
+
+li {
+    margin-bottom: 25px; font-size: 22px; letter-spacing: 2px; list-style: none;
+}
+
+.dream p{
+    font-size: 18px; line-height: 50px; letter-spacing: 2px;
+}
+
+}
+
+
+/*タブレット*/
+@media screen and (max-width: 1000px) { 
+    body {
+        background-color:rgb(165, 165, 154,0.8);
+    }
+
+    span {
+        color: red;
+    }
+
+    .btn {
+        background-color: black; color: white;  display: inline-block;
+        height: 60px; width: 60px; border-radius: 50%; font-size: 30px;
+        text-align: center; padding-top: 8px;opacity: 0.5; text-decoration: none;
+    }   
+    /*top*/
+    header {
+        background-color: aqua; 
+    }
+    .header-left {
+        width: 40%; 
+    }
+    .header-left h1{
+        color: brown;
+    }
+    
+    .header-right {
+        display: flex; float: right; width: 38%; position: absolute; top: 10px; right: 10px;
+    }
+    .header-right h2{
+        width: 50%; margin-left: 100px;
+    }
+    .header-right img{
+        width: 40px; height: 40px; margin: 15px; border-radius: 100%; 
+    }
+    
+    .top-wrapper {
+        padding: 15px; background-color: white; margin-bottom: 10px;
+    }
+    .top-wrapper img{
+        display: none;
+    }
+
+    .message {
+       font-family: sans-serif; font-size: 20px;
+    }
+
+    .contents-wrapper {
+        width: 100%; height: 700px; text-align: center;
+    }
+    .contents {
+        overflow: hidden; 
+    }
+    .contents h1{
+        margin-bottom: 30px;
+    }
+
+    .news {
+        text-align: center; display: inline-block; width: 600px; background-color: white;
+        border: 5px solid gray;
+    }
+
+    .news h1{
+        animation: flowing 8s linear infinite; transform: translateX(100%);
+        border-top: 3px solid black; border-bottom: 3px solid black; color: rgb(194, 48, 48);
+    }
+    @keyframes flowing {
+        100% {
+          transform: translateX(-100%);
+        }
+    }
+
+    .introduce {
+        height: 200px; background-color: rgb(255, 233, 200); font-family: 'arial black';
+    }
+
+    .achievements {
+        height: 200px; background-color: rgb(78, 240, 172,0.8); font-family: 'arial black';
+    }
+    /*achievments*/
+    .title-top {
+        height: 100px;
+    }
+    .title-top h1{
+        text-align: center; padding-top: 25px;
+    }
+    .title-top a{
+        position: absolute; top: 40px; left: 40px;
+    }
+
+    .kakudai {
+        display: none;
+    }
+    
+    .imgs {
+        width: 100%; height: 2000px;
+    }
+
+    .sdgs {
+        width: 100%; height: 1000px;
+    }
+    .gazo-1 {
+        width: 100%; pointer-events: none;
+    }
+    
+    .progate {
+        width: 100%;
+    }
+    .gazo-2 {
+        width: 100%; pointer-events: none;
+    }
+    
+    .achievement p{
+        background-color: white; border: 3px solid gray; font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+    .gray {
+        display: none;
+    }
+    /*introduce*/
+    .mine {
+        cursor: pointer; position: relative; background-color: white;
+    }
+    .answer {
+        display: none;
+    }
+    .click {
+        position: absolute; right: 60px; top: 10px; font-size: 20px;
+    }
+    .parts {
+        text-align: center;
+    }
+
+    li {
+        font-size: 22px; letter-spacing: 2px; line-height: 50px;
+    }
+    .kuuhaku {
+        display: none;
+    }
+    .bule {
+        color: blue;
+    }
+    .mine p{
+        letter-spacing: 2px;
+    }
+}
+
+
